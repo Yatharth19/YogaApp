@@ -3,7 +3,6 @@
   command = "npm install"
   directory = "build"
   functions = "functions"
-  publish = "dist"
 
 [publish]
   publish = "build"
