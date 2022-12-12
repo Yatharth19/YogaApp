@@ -133,7 +133,10 @@ app.post('/save', (req, res) => {
 
     })
 })
-
+process.on('SIGINT', () => {
+    console.log('Exiting app...');
+    process.exit();
+  });
 app.listen(process.env.APP_PORT, ()=>{
     console.log(`Server is running on port ${process.env.APP_PORT}`);
 })

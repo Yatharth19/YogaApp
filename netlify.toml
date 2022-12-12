@@ -1,13 +1,13 @@
 # example netlify.toml
 [build]
-  command = "npm install && npm start"
+  command = "npm install"
   directory = "build"
   functions = "functions"
   publish = "dist"
 
 [publish]
   publish = "build"
-  
+
 [build.environment]
   NODE_VERSION = "16.15.0"
 
