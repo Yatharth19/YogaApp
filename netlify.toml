@@ -3,9 +3,9 @@
   command = "npm run start"
   functions = "functions"
   publish = "dist"
-  
+
 [build.environment]
-  NODE_VERSION = "16.x"
+  NODE_VERSION = "16.15.0"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
