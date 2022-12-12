@@ -1,8 +1,9 @@
 # example netlify.toml
 [build]
-  command = "npm run build"
+  command = "npm install && npm start"
   directory = "build"
   functions = "functions"
+  publish = "dist"
 
 [publish]
   publish = "build"
