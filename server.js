@@ -136,9 +136,4 @@ app.post('/save', (req, res) => {
 
 app.listen(process.env.APP_PORT, ()=>{
     console.log(`Server is running on port ${process.env.APP_PORT}`);
-    process.on('SIGINT', () => {
-        console.log('Exiting server...');
-        process.exit();
-      });
-      
 })
